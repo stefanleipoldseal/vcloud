@@ -1,0 +1,9 @@
+@echo off 
+if "%1%" == "precustomization" ( 
+echo Do precustomization tasks 
+) else if "%1%" == "postcustomization" ( 
+echo Do postcustomization tasks 
+net user vagrant /del
+net user Administrator xxx 
+mklink c:\users\public\desktop\"JoinSealDomain.bat" 
+
