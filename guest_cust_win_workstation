@@ -6,3 +6,4 @@ echo Do postcustomization tasks
 net user vagrant /del
 net user localadmin xxx /ADD
 net localgroup administrators localadmin /add
+)

@@ -6,4 +6,4 @@ echo Do postcustomization tasks
 net user vagrant /del
 net user Administrator xxx 
 mklink c:\users\public\desktop\"JoinSealDomain.bat" 
-
+)
