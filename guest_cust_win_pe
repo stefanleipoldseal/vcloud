@@ -1,8 +1,0 @@
-@echo off 
-if "%1%" == "precustomization" ( 
-echo Do precustomization tasks 
-) else if "%1%" == "postcustomization" ( 
-echo Do postcustomization tasks 
-mklink c:\users\public\desktop\"JoinSealDomain.bat" \\roecloudsrv001.sealsystems.local\iso\app\windom\netdom.bat
-\\roecloudsrv001.sealsystems.local\iso\app\pe\install-com-vm.bat
-)
