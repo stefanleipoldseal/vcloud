@@ -1,6 +1,6 @@
 # Shutdown.ps1 V1.2
 # Hier bitte den Namen des vcenter ersetzen
-Connect-VIServer roevc004
+Connect-VIServer vcservername
 
 $RESPOOL = get-resourcepool TMP
 Write-Host $RESPOOL
